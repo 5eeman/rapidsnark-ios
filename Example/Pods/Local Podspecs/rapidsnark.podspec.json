@@ -1,0 +1,27 @@
+{
+  "name": "rapidsnark",
+  "version": "0.1.0",
+  "summary": "iOS implementation of bridge for rapidsnark library.",
+  "description": "iOS implementation of bridge for rapidsnark library. Used for zk proof generation.",
+  "homepage": "https://github.com/iden3/rapidsnark",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yaroslav Moria": "morya.yaroslav@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/iden3/rapidsnark.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "rapidsnark/Classes/**/*",
+  "preserve_paths": "rapidsnark/Frameworks/*",
+  "vendored_frameworks": "rapidsnark/Frameworks/Rapidsnark.xcframework",
+  "ios": {
+    "vendored_frameworks": "rapidsnark/Frameworks/Rapidsnark.xcframework"
+  }
+}

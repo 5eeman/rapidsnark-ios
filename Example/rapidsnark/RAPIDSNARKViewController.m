@@ -7,6 +7,7 @@
 //
 
 #import "RAPIDSNARKViewController.h"
+#import <rapidsnark/rapidsnark-umbrella.h>
 
 @interface RAPIDSNARKViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -22,7 +22,7 @@ pod 'rapidsnark'
 
 ## Author
 
-Yaroslav, morya.yaroslav@gmail.com
+Yaroslav Moria, morya.yaroslav@gmail.com
 
 ## License
 
